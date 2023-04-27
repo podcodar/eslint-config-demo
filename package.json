@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-demo",
+  "version": "1.0.0",
+  "description": "PodCodar ESLint Demo",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"no test yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/podcodar/eslint-config-demo.git"
+  },
+  "keywords": [
+    "eslint",
+    "podcodar",
+    "demo",
+    "eslint-config"
+  ],
+  "author": "Marco Antônio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/podcodar/eslint-config-demo/issues"
+  },
+  "homepage": "https://github.com/podcodar/eslint-config-demo#readme"
+}
