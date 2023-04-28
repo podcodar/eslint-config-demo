@@ -1,18 +1,16 @@
 module.exports = {
-  "env": {
-    "browser": true,
-    "es2021": true,
-    "node": true
+  'env': {
+    'browser': true,
+    'es2021': true,
+    'node': true
   },
-  "overrides": [
-  ],
-  "parserOptions": {
-    "ecmaVersion": "latest",
-    "sourceType": "module"
+  'extends': [ '@podcodar/eslint-config-base' ],
+  'parserOptions': {
+    'ecmaVersion': 'latest',
+    'sourceType': 'module'
   },
-  "rules": {
-    "indent": ["error", 2],
-    "no-trailing-spaces": ["error"],
-    "quotes": ["error", "double"],
+
+  'rules': {
+    'quotes': ['error', 'single'],
   }
-}
+};
