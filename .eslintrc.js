@@ -11,6 +11,8 @@ module.exports = {
     "sourceType": "module"
   },
   "rules": {
-    "indent": ["error", 2]
+    "indent": ["error", 2],
+    "no-trailing-spaces": ["error"],
+    "quotes": ["error", "double"],
   }
 }
