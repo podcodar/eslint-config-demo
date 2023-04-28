@@ -4,6 +4,8 @@
   "description": "PodCodar ESLint Demo",
   "main": "main.js",
   "scripts": {
+    "lint": "eslint .",
+    "fmt": "eslint --fix .",
     "test": "echo \"no test yet\""
   },
   "repository": {
